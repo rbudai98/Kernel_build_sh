@@ -76,7 +76,7 @@ fi
 if (( "${STEP}" < 8 )); then
 
   echo Copy device-tree
-  cp $CURRENT_DIR/ToF/drivers/adsd3500/nvidia/L4T_34_1_1/src/tegra194-p3668-all-p3509-0000.dts ${CURRENT_DIR}/L4T_driver_package/Linux_for_Tegra/source/public/hardware/nvidia/platform/t19x/jakku/kernel-dts/
+  cp $CURRENT_DIR/ToF/drivers/adsd3500/nvidia/L4T_34_1_1/src/tegra194-p2888-0001-p2822-0000.dts ${CURRENT_DIR}/L4T_driver_package/Linux_for_Tegra/source/public/hardware/nvidia/platform/t19x/galen/kernel-dts/
   export STEP=$((STEP + 1))
 fi
 
