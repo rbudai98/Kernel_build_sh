@@ -24,7 +24,7 @@ echo "Current PATH: ${CURRENT_DIR}"
 if (( "${STEP}" < 2 )); then
 
   echo Downloading AGX Root File System
-  cd $CURRENT_DIR && wget https://developer.nvidia.com/embedded/l4t/r34_release_v1.1/sources/public_sources.tbz2 
+  cd $CURRENT_DIR && wget https://developer.nvidia.com/embedded/l4t/r35_release_v1.0/sources/public_sources.tbz2 
   export STEP=$((STEP + 1))
 
 fi
